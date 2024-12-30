@@ -22,7 +22,7 @@ const App = () => {
         placeholder="Enter a number"
       />
       <div>
-        <p>Current Sum: {sum}</p> {/* The <p> tag that Cypress tests will look for */}
+        <p>Sum: {sum}</p> {/* The <p> tag that Cypress tests will look for */}
       </div>
     </div>
   );
